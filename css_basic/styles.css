@@ -1,0 +1,27 @@
+/* styles.css */
+
+/* Styling for tables */
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+  }
+  
+  table th, table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  table th {
+    background-color: #333;
+    color: white;
+  }
+  
+  /* Styling for images */
+  img {
+    display: block;
+    margin: 20px auto;
+    border-radius: 8px;
+  }
+  
