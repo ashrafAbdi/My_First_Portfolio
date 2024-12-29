@@ -51,4 +51,47 @@
     font-size: 14px;
     color: #777;
   }
+  /* Base styles for screens larger than 768px (default) */
+body.works_on_smartphone {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  main {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  article {
+    flex: 2;
+  }
+  
+  aside {
+    flex: 1;
+  }
+  
+  /* Media Query for small screens (smartphones) */
+  @media screen and (max-width: 768px) {
+    body.works_on_smartphone {
+      padding: 10px;
+    }
+  
+    main {
+      flex-direction: column;  /* Stack the article and aside vertically */
+    }
+  
+    article {
+      flex: 1; /* Take full width of the screen */
+      margin-bottom: 10px;
+    }
+  
+    aside {
+      flex: 1; /* Take full width of the screen */
+    }
+  
+    header ul li {
+      display: block; /* Stack navigation links vertically */
+      margin-bottom: 10px;
+    }
+  }
   
