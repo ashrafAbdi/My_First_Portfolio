@@ -3,35 +3,21 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My First Webpage</title>
+  <title>Tweets Page</title>
 </head>
 <body>
-  <!-- Main Heading -->
-  <h1>Welcome to My Webpage</h1>
-
-  <!-- Heading level 2 -->
-  <h2>Introduction</h2>
-  <p>This is the first paragraph of my webpage. It introduces the page and its content. The webpage is simple and serves as a basic introduction to HTML elements.</p>
-
-  <!-- Heading level 2 -->
-  <h2>HTML Structure</h2>
-  <p>The HTML structure of a webpage typically includes a head and a body. The head contains metadata like the title, while the body contains the visible content of the page.</p>
-
-  <!-- Heading level 3 -->
-  <h3>Adding Images</h3>
-  <p>Images can be embedded into HTML using the <code>&lt;img&gt;</code> tag. You can also link these images to other pages or websites. For example, below is an image that links to an external website.</p>
-
-  <!-- Heading level 3 -->
-  <h3>HTML Links</h3>
-  <p>Links are created using the <code>&lt;a&gt;</code> tag. Links can be used to navigate to other pages or external websites. Below is a clickable image, which is also a link.</p>
-
-  <!-- Clickable Image (links to another URL) -->
-  <a href="https://www.example.com">
-    <img src="https://i.ibb.co/gTDZZT8/ALX-Logo-07.png" alt="ALX Logo" width="200">
-  </a>
-
-  <!-- Link to tweets page -->
-  <p><a href="tweets.html">Check out my tweets!</a></p>
-
+  <h1>Welcome to My Tweets Page</h1>
+  
+  <!-- Link back to the homepage -->
+  <p><a href="index.html">Back to Homepage</a></p>
+  
+  <h2>Latest Tweet</h2>
+  
+  <!-- Embedded tweet from Twitter -->
+  <blockquote class="twitter-tweet">
+    <p lang="en" dir="ltr">Just finished a great session on web development! <a href="https://twitter.com/hashtag/learning?src=hash&ref_src=twsrc%5Etfw">#learning</a> <a href="https://t.co/YXZY6Xf1iB">pic.twitter.com/YXZY6Xf1iB</a></p>&mdash; WebDev Enthusiast (@webdev_enthusiast) <a href="https://twitter.com/webdev_enthusiast/status/1435912764098875392?ref_src=twsrc%5Etfw">September 9, 2021</a>
+  </blockquote>
+  <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+  
 </body>
 </html>
